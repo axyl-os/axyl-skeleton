@@ -4,7 +4,11 @@
 
 # reloads sxhkd configuration:
 super + Escape
-	pkill -USR1 -x sxhkd
+        pkill -USR1 -x sxhkd
+
+# Launch Terminal
+super + Return
+        term
 
 # Launch Applications
 super + shift + {f,w,r,g,c,d,s}
