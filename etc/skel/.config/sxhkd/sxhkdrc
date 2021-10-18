@@ -6,9 +6,17 @@
 super + Escape
     pkill -USR1 -x sxhkd
 
+# j4 dmenu
+alt + f1
+    j4-dmenu
+
 # Launch Menus
-super + {x,n}
-    {powermenu,def-nmdmenu}
+super + {x,n,d}
+    {powermenu,def-nmdmenu,def-dmenu}
+
+# Lock Screen
+ctrl + alt + l
+    lock
 
 # custom dmenu scripts
 alt + {e,l}
