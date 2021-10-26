@@ -118,7 +118,7 @@ ${color0}${hr}${color}
 ${color6}[S]+Enter${alignr}${color0}Alacritty${color}
 ${color6}[S]+[Shft]+W${alignr}${color0}Firefox${color}
 ${color6}[S]+[Shft]+F${alignr}${color0}Thunar${color}
-${color6}[S]+[Shft]+E${alignr}${color0}Geany${color}
+${color6}[S]+[Shft]+G${alignr}${color0}Geany${color}
 ${color6}[S]+[Shft]+R${alignr}${color0}Ranger${color}
 ${color6}[PrtSc]${alignr}${color0}Screenshot${color}
 ]];
