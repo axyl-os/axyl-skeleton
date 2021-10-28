@@ -8,7 +8,15 @@ super + Escape
 
 # Launch Terminal
 super + Return
-    terminal -n
+    terminal
+
+# Floating Alacritty Terminal
+super + shift + Return
+    terminal -f
+
+# Fullscreen Alacritty Terminal
+super + shift + t
+    terminal -m
 
 # j4 dmenu
 alt + F1
