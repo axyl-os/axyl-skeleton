@@ -23,8 +23,8 @@ alt + F1
     j4-dmenu
 
 # Launch Menus
-super + {x,n,d}
-    {powermenu,def-nmdmenu,def-dmenu}
+super + {x,n,d,s}
+    {powermenu,def-nmdmenu,def-dmenu,def-ssdmenu}
 
 # Lock Screen
 ctrl + alt + l
@@ -35,8 +35,8 @@ alt + {e,l}
     {edit-configs, quick-links}
 
 # Launch Applications
-super + shift + {f,w,r,g,c,d,s}
-    {thunar,firefox,rangerfm,geany,code,discord,spotify}
+super + shift + {f,w,r,g,c,d,s,v}
+    {thunar,firefox,rangerfm,geany,code,discord,spotify,virtualbox}
 
 # Volume controls
 XF86Audio{RaiseVolume,LowerVolume,Mute}
@@ -97,8 +97,8 @@ super + g
 #
 
 # set the window state
-super + {t,ctrl + t,s,f}
-	bspc node -t {tiled,pseudo_tiled,floating,fullscreen}
+super + {t,ctrl + t,f}
+	bspc node -t {tiled,pseudo_tiled,fullscreen}
 
 # set the node flags
 super + ctrl + {m,x,y,z}
