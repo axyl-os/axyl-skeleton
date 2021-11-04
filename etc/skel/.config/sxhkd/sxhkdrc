@@ -50,20 +50,12 @@ XF86MonBrightness{Up,Down}
 Print
     takeshot --now
 
-# screenshot in 5 seconds
-alt + Print
-    takeshot --in5
-
-# screenshot in 10 seconds
-shift + Print
-    takeshot --in10
-
 # screenshot active window
 ctrl + Print
     takeshot --win
 
 # screenshot selected area
-ctrl + alt + Print
+ctrl + shift + Print
     takeshot --area
 
 #
