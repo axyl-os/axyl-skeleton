@@ -40,11 +40,11 @@ super + shift + {f,w,r,g,c,d,s,v}
 
 # Volume controls
 XF86Audio{RaiseVolume,LowerVolume,Mute}
-    volume{ --inc, --dec, --toggle}
+    volume{ --up, --down, --toggle}
 
 # Brightness controls
 XF86MonBrightness{Up,Down}
-    brightness{ --inc, --dec}
+    brightness{ --up, --down}
 
 # screenshot
 Print
