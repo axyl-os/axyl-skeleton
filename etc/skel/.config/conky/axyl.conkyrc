@@ -108,6 +108,7 @@ ${color0}${hr}
 ${color6}[S]+C${alignr}${color0}Kill Window${color}
 ${color6}[S]+D${alignr}${color0}dmenu${color}
 ${color6}[S]+N${alignr}${color0}Network dmenu${color}
+${color6}[S]+S${alignr}${color0}Screenshot dmenu${color}
 ${color6}[S]+X${alignr}${color0}Power Menu${color}
 ${color6}[Alt]+E${alignr}${color0}Edit Configs${color}
 ${color6}[Alt]+L${alignr}${color0}Quick Links${color}
