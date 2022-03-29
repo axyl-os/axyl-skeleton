@@ -8,7 +8,7 @@ super + Escape
 
 # Launch Terminal
 super + Return
-    terminal
+    xfce4-terminal
 
 # Floating Alacritty Terminal
 super + shift + Return
