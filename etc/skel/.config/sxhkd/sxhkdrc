@@ -9,14 +9,16 @@ super + Escape
 # Launch Terminal
 super + Return
     xfce4-terminal
+    #terminal
 
 # Floating Alacritty Terminal
 super + shift + Return
     terminal -f
 
-# Fullscreen Alacritty Terminal
+# Fullscreen Terminal
 super + shift + t
-    terminal -m
+    xfce4-terminal --fullscreen
+    #terminal -m
 
 # Toggle Conkeww
 super + shift + e
@@ -39,7 +41,8 @@ alt + {e,l}
 
 # Launch Applications
 super + shift + {f,w,r,g,c,d,s,v}
-    {thunar,firefox,terminal -e ranger,geany,code,discord,spotify,virtualbox}
+    {thunar,firefox,xfce4-terminal -x ranger,geany,code,discord,spotify,virtualbox}
+    #{thunar,firefox,terminal -e ranger,geany,code,discord,spotify,virtualbox}
 
 # Volume controls
 XF86Audio{RaiseVolume,LowerVolume,Mute}
